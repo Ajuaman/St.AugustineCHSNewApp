@@ -20,7 +20,7 @@
         android:background="@drawable/header_home"
         android:gravity="left"
         android:padding="25dp"
-        android:text="Welcome \nJoe Bob\nBill Steve"
+        android:text="Welcome \nJohn Doe"
         android:textColor="@color/white"
 
         android:textSize="25dp"
