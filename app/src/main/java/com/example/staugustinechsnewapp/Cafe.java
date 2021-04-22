@@ -26,6 +26,7 @@ public class Cafe extends Fragment {
 
     public Cafe() {
         // Required empty public constructor
+        //Test
     }
 
     /**
