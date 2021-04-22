@@ -1,5 +1,7 @@
 package com.example.staugustinechsnewapp;
 
+
+//Imports test 2
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
