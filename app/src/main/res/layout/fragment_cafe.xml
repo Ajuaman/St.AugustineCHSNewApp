@@ -35,19 +35,20 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:layout_width="370dp"
-        android:layout_height="500dp"
+        android:layout_width="380dp"
+        android:layout_height="451dp"
 
+        android:layout_marginTop="40dp"
+        android:background="@drawable/section_template"
         android:gravity="left"
         android:padding="25dp"
         android:text="Today's Specials"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textColor="@color/black"
 
-        android:layout_marginTop="56dp"
-        android:background="@drawable/header_rounded"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 

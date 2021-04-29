@@ -10,18 +10,21 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="375dp"
+        android:layout_width="335dp"
+        android:layout_height="59dp"
 
-        android:background="@drawable/header_profile"
+        android:background="@drawable/header_rounded"
+        android:gravity="center"
         android:text="Profile"
         android:textAlignment="gravity"
-        android:gravity="center"
         android:textColor="@color/white"
         android:textSize="25dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="53dp" />
 
     <ImageButton
+
         android:id="@+id/button_settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
