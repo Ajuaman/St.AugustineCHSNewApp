@@ -46,6 +46,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     }
     @Override
     public void onClick(View v) {
+        //test
         FirebaseFirestore.getInstance().collection("users")
                 .document(FirebaseAuth.getInstance().getUid());
 
