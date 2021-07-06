@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        //INITIATE SOME FIREBASE SETTINGS
         FirebaseFirestoreSettings settings = new FirebaseFirestoreSettings.Builder().build();
-
         FirebaseFirestore.getInstance().setFirestoreSettings(settings);
 
         //FIREBASE MESSAGING SETTINGS
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void init(Bundle savedInstanceState) {
         if(savedInstanceState == null) {
-            //THE USER ISN'T SIGNED INTO FIREBASE, GO TO LOGIN ACTIVITY
+            //IF THE USER ISN'T SIGNED INTO FIREBASE, GO TO LOGIN ACTIVITY
             Intent intent = new Intent(this, Login.class);
             startActivity(intent);
             finish();

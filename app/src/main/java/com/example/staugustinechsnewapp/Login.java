@@ -25,7 +25,30 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Login {
+public class Login extends AppCompatActivity implements View.OnClickListener {
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+
+    }
+
+    public void createSignInIntent() {
+
+    }
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    private void finishSignInt() {
+
+    }
+    @Override
+    public void onClick(View v) {
+        FirebaseFirestore.getInstance().collection("users")
+                .document(FirebaseAuth.getInstance().getUid());
+
+    }
 
 }
